@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="UTF-8" id="html">
+  <head lang="en-US">
+    <meta charset="utf-8" />
+    <title>Interior Design Agency</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/background.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  </head>
+
+
+<body>
+  <header id="header">
+    <div class="drawer-toggle" onclick="setOpened()">
+      <i class="ic-menu"><img src="img/togglebar.png" alt="" /></i>
+    </div>
+    <h3><a href="index.html">MOON</a></h3>
+  </header>
+  <nav id="drawer">
+    <ul class="navbar-nav" id="menu">
+      <li><a href="index.html">home.</a></li>
+      <li><a href="about.html">about us.</a></li>
+      <li><a href="portfolio.html">portfolio.</a></li>
+      <li><a href="contact.html">contact.</a></li>
+    </ul>
+  </nav>
+  <div id="blocker" onclick="removeOpened()"></div>
+
+    <div class="sub-container">
+        <div class="contact-container ">
+            <div class="ct-container">
+                <div class="ct-top wow slideInLeft">
+                  <div id="ct-title">
+                  <h2>Contact us</h2>
+                    <img src="img/text-bar2.png" />
+                  </div> 
+                </div>
+                <div class="ct-top3 wow slideInRight">
+                    <div class="contact-form">
+                        <form id="myForm" class="myForm" onsubmit="validate()">
+                            <label for="name">name</label>
+                            <input type="text" id="name" name="name" size="40"><br>
+
+                            <label for="phone">phone</label>
+                            <input type="text" id="phone" name="phone" size="40"><br>
+
+                            <label for="email">email</label>
+                            <input type="text" id="email"
+                                pattern="[a-z0-9.?%+-]+@[a-z0-9.-]+\.[a-z0-9.-]+\.[a-z]{2, 4}$" name="email"
+                                size="40"><br>
+
+                            <label for="msg">message</label>
+                            <textarea type="text" id="msg" name="msg" size="100" cols="38" rows="8"></textarea><br>
+
+                            <input id="btn-submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+        src="https://kit.fontawesome.com/44724ba013.js"
+        crossorigin="anonymous"
+      ></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+            <script src="js/main.js"></script>
+</body>
+<footer class="footer">
+    <div class="icons">
+      <a href="#">
+        <span style="font-size: 14px; color: rgb(0, 92, 158)">
+          <i class="fab fa-facebook fa-2x"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span style="font-size: 14px; color: rgb(0, 92, 158)">
+          <i class="fab fa-twitter fa-2x"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span style="font-size: 14px; color: rgb(0, 92, 158)">
+          <i class="fab fa-instagram fa-2x"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span style="font-size: 14px; color: rgb(0, 92, 158)">
+          <i class="fab fa-youtube fa-2x"></i>
+        </span>
+      </a>
+    </div>
+    <div class="copyright">&copy;2021 Moon Interior Design All Rights Reserved</div>
+  </footer>
+</html>

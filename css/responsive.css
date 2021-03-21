@@ -1,0 +1,93 @@
+@media only screen and (max-width: 680px) {
+  .ab-container {
+    display: block;
+    text-align: center;
+  }
+
+  .ab-top {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .ab-top img {
+    width: 100%;
+  }
+  .ab-top h2,
+  #pf-1-title h2 {
+    font-size: 25px;
+  }
+  .ab-text {
+    background-color: #d8d8d8;
+    border-radius: 50px;
+    position: sticky;
+    width: -webkit-fill-available;
+    margin-top: 30px;
+  }
+  .ab-text h3 {
+    width: fit-content;
+    color: #6889a6;
+    font-size: 20px;
+    margin: auto;
+  }
+  .ab-text p {
+    padding: 20px;
+    margin: auto;
+    font-size: 14px;
+    display: inline;
+  }
+  .ab-bottom img {
+    width: 150px;
+  }
+
+  /*********** portfolio **********/
+  .pf-2 {
+    display: inline;
+  }
+
+  .pf-2 img {
+    width: 150px;
+  }
+
+  #pf-2-text {
+    padding: 0px;
+  }
+  #pf-2-text h3 {
+    padding: 10px;
+    font-size: 18px;
+  }
+  #pf-2-text p {
+    padding: 10px;
+  }
+
+  #pf-1-title img {
+    width: 75px;
+  }
+  #pf-1-title h2 {
+    margin-top: inherit;
+  }
+
+  .pf-3-box {
+    padding: 10px;
+  }
+  .pf-3-box img {
+    width: 140px;
+  }
+  .pf-4 {
+    padding: 30px;
+    display: inline;
+  }
+  .pf-4-box {
+    width: auto;
+    padding: 10px;
+  }
+  .pf-4-box p {
+    padding: 20px;
+  }
+  .pf-5 p {
+    padding: 20px;
+    display: inline;
+    color: var(--text-color);
+    font-weight: bold;
+    text-shadow: 0 0 black;
+  }
+}
